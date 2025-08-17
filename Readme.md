@@ -2,6 +2,8 @@
 
 Aplicação web para análise do quadro de medalhas olímpicas históricas, com visualização interativa dos top 10 países, pode ser alterada com filtro por tipos de medalhas.
 
+![Preview do dashboard de medalhas](dashboard_preview.png)
+
 ✨ Funcionalidades
 Filtros interativos (ordenar por ouro, prata, bronze ou total)
 
