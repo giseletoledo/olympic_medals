@@ -4,6 +4,18 @@ Aplicação web para análise do quadro de medalhas olímpicas históricas, com 
 
 ![Preview do dashboard de medalhas](dashboard_preview.png)
 
+🛠️ Estrutura do Projeto
+
+```
+olympic-medals/
+├── data/                   # Dados brutos em CSV
+├── src/                    # Código-fonte (análise e limpeza)
+├── outputs/                # Relatórios gerados
+├── streamlit_app.py        # Aplicação principal
+├── requirements.txt        # Dependências
+└── README.md               # Este arquivo
+```
+
 ✨ Funcionalidades
 Filtros interativos (ordenar por ouro, prata, bronze ou total)
 
@@ -44,13 +56,3 @@ Execute o app:
 ```
 streamlit run streamlit_app.py
 ````
-
-🛠️ Estrutura do Projeto
-
-olympic-medals/
-├── data/                   # Dados brutos em CSV
-├── src/                    # Código-fonte (análise e limpeza)
-├── outputs/                # Relatórios gerados
-├── streamlit_app.py        # Aplicação principal
-├── requirements.txt        # Dependências
-└── README.md               # Este arquivo
